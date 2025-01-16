@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #47594F;
+    color: #1D2621;
+    padding: 20px;
+}
+
+header {
+    background: #2E4034;
+    color: #F2DABD;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: auto;
+    position: relative;
+    margin-top: -20px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #F2DABD;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#kalkulator {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #47594F;
+    border-radius: 8px;
+    background-color: #748C7F;
+    box-shadow: 0 4px 6px #2E4034;
+    color: #1D2621;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    font-size: 18px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #F2DABD;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #47594F;
+    color: #F2DABD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2E4034;
+}
+
+#wynik {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#wynik p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2E4034;
+    color: #F2DABD;
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+}
+
+#pro, h2, label {
+    color: #1D2621;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
