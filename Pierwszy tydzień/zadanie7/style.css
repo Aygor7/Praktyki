@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  font-family: Arial, sans-serif;
+  background-color: #037F8C;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #025373;
+  color: #022840;
+  margin-top: 8px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 50px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #022840;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#imgs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform-origin: 0 0 -50vw;
+}
+
+#imgs img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  transform-origin: 50% 50% -50vw;
+  transform: translate3d(-50%, -50%, 0);
+  transform-style: preserve-3d;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+#imgs img:nth-child(1) {
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 0deg);
+}
+
+#imgs img:nth-child(2) {
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 72deg);
+}
+
+#imgs img:nth-child(3) {
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 144deg);
+}
+
+#imgs img:nth-child(4) {
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 216deg);
+}
+
+#imgs img:nth-child(5) {
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 1, 0, 288deg);
+}
+
+footer {
+  background-color: #025E73;
+  color: #022840;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
