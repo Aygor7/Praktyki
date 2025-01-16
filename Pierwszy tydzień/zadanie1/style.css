@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A4D9D7;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background: #037E8E;
+    color: #251D12;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: auto;
+    position: relative;
+    margin-top: 8px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #002538;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#kalkulator {
+    background: #08A0A8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #002538;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #002538;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    font-size: 18px;
+}
+
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #025F76;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #037E8E;
+    color: #A4D9D7;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #025F76;
+}
+
+#wynik {
+    margin-top: 20px;
+}
+
+#wynik p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+#netto {
+    font-weight: bold;
+    color: #002538;
+}
+
+h1, h2, p, label, button {
+    color: #002538;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #037E8E;
+    color: #002538;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

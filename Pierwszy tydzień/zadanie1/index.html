@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator podatkowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Zadanie 1</a></li>
+                <li><a href="../zadanie 2/index.html">Zadanie 2</a></li>
+                <li><a href="../index.html">Strona Startowa (zadanie 3)</a></li>
+                <li><a href="../zadanie 4/index.html">Zadanie 4</a></li>
+                <li><a href="../zadanie 5/index.html">Zadanie 5</a></li>
+                <li><a href="../zadanie 6/index.html">Zadanie 6</a></li>
+                <li><a href="../zadanie 7/index.html">Zadanie 7</a></li>
+                <li><a href="../zadanie 9/index.html">Zadanie 9</a></li>
+                <li><a href="../zadanie 10/index.html">Zadanie 10</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <h1>Kalkulator podatkowy brutto-netto</h1>
+
+    <main>
+        <section id="kalkulator">
+            <label for="calcMode">Wybierz tryb kalkulatora:</label>
+            <select id="calcMode">
+                <option value="bruttoToNetto">Brutto ➝ Netto</option>
+                <option value="nettoToBrutto">Netto ➝ Brutto</option>
+            </select>
+
+            <label for="amount">Kwota:</label>
+            <input type="number" id="amount" placeholder="Wprowadź kwotę">
+
+            <label for="taxRate">Stawka podatkowa (%):</label>
+            <input type="number" id="taxRate" placeholder="Wprowadź stawkę podatkową">
+
+            <button id="calculateBtn">Oblicz</button>
+
+            <div id="wynik">
+                <p id="resultAmount">Wynik: 0 zł</p>
+                <p id="taxAmount">Podatek: 0 zł</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Igor Lewandowski 2c</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
