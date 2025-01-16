@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0AD26;
+    color: #1D2621;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: #D90D7E;
+    color: #232559;
+    margin-top: -19px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #232559;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: #232559;
+    font-size: 32px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #D90D7E;
+    color: #232559;
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+}
+
+#animacja {
+    width:448px;
+    height:46px;
+    font-size:24px;
+    margin:0 auto;
+    text-align:center;
+}
+
+#animacja > span {
+    display:block;
+    float:left;
+    width:40px;
+    line-height:40px;
+    margin:0 5px;
+    border:3px solid #F2793A;
+    background-color:#F728CD;
+    border-radius:6px;
+    animation:animowany_tekst 5s linear infinite;
+    -webkit-animation:animowany_tekst 5s linear infinite;
+}
+
+#animacja > #A1 {
+    animation-delay:250ms;
+    -webkit-animation-delay:250ms;
+}
+
+#animacja > #N {
+    animation-delay:500ms;
+    -webkit-animation-delay:500ms;
+}
+
+#animacja > #I {
+    animation-delay:750ms;
+    -webkit-animation-delay:750ms;
+}
+
+#animacja > #M {
+    animation-delay:1000ms;
+    -webkit-animation-delay:1000ms;
+}
+
+#animacja > #A2 {
+    animation-delay:1250ms;
+    -webkit-animation-delay:1250ms;
+}
+
+#animacja > #C {
+    animation-delay:1500ms;
+    -webkit-animation-delay:1500ms;
+}
+
+#animacja > #J {
+    animation-delay:1750ms;
+    -webkit-animation-delay:1750ms;
+}
+
+#animacja > #A3 {
+    animation-delay:2000ms;
+    -webkit-animation-delay:2000ms;
+}
+
+@keyframes animowany_tekst
+{
+    0% {transform:rotate(0);}
+    10% {transform:rotate(360deg);}
+    100% {transform:rotate(360deg);}
+}
+
+@-webkit-keyframes animowany_tekst
+{
+    0% {-webkit-transform:rotate(0);}
+    10% {-webkit-transform:rotate(360deg);}
+    100% {-webkit-transform:rotate(360deg);}
+}
